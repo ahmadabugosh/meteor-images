@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ImageList from './components/image_list';
 
 
 
@@ -11,7 +12,7 @@ const App = () => {
 
 return (
 	<div>
-	React App #2
+	<ImageList />
 	</div>
 );
 
